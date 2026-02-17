@@ -64,7 +64,7 @@ LanguageModelList: list[LanguageModel] = [
         model_style=LMStyle.OpenAIChat,
         release_date=None,
         link=None,
-    )
+    ),
     ## LLama3 Base (8B and 70B)
     LanguageModel(
         "meta-llama/Meta-Llama-3-8B",

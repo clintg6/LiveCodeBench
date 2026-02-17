@@ -57,6 +57,14 @@ class LanguageModel:
 
 
 LanguageModelList: list[LanguageModel] = [
+    ## DeepSeek R1 MXFP4
+    LanguageModel(
+        model_name="deepseek-r1-mxfp4",          # must match what you call in requests
+        model_repr="DeepSeek-R1 MXFP4 (SGLang)",
+        model_style=LMStyle.OpenAIChat,
+        release_date=None,
+        link=None,
+    )
     ## LLama3 Base (8B and 70B)
     LanguageModel(
         "meta-llama/Meta-Llama-3-8B",
